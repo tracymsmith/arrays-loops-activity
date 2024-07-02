@@ -7,6 +7,14 @@
  *    hobbies
  */
 
+let hobbies = ['piano', 'biking', 'sewing', 'cooking'];
+console.log('My hobbies:', hobbies);
+for (let hobby of hobbies){
+     console.log(hobby);
+}
+console.log('Total hobbies:', hobbies.length);
+
+
 
 // Example output
 // 1. swimming
@@ -24,6 +32,20 @@
  *    is in the array
  * 4. Output the array and number of times teal was found
  */
+
+let colors = ['pink', 'blue', 'yellow', 'teal', 'orange', 'teal', 'green'];
+console.log('Colors:', colors);
+
+let target = 'teal';
+
+let counter = 0;
+for (let color of colors) {
+     if (color == 'teal'){
+          counter++;
+     }
+}
+console.log('Number of times teal in colors:', counter)
+
 
 
 // Example output
@@ -46,6 +68,34 @@
 // 3, 7, 2, 8, 11, 4, 2
 // Odd 3, 7, 11
 // Even 2, 8, 4, 2
+
+
+let numbers = [6, 18, 48, 9, 24, 59, 4, 7, 5, 11, 55];
+console.log('Numbers:', numbers);
+
+let oddNumbers = [];
+let evenNumbers = [];
+
+// for (let number of numbers);{
+//      (i = 0; i < numbers.length; i++){
+//           if (number % 2 == 1){
+//                console.log('Even numbers:', evenNumbers)
+//           }
+//           else{
+//                if (number % 2 == 0){
+//                     console.log('Odd Numbers:', oddNumbers);
+     
+//                }
+                    
+//           }
+          
+//      }
+// } 
+          
+
+
+
+
 
 
 /**
